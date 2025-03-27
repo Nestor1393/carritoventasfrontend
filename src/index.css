@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: rgb(34,193,195);
+/*background: linear-gradient(0deg, rgba(34,193,195,1) 2%, rgba(45,67,253,1) 100%); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.div-desactivado {
+  pointer-events: none;
+  opacity: 0.5; /* Opcional: para mostrar visualmente que está deshabilitado */
+}
+
+
+
