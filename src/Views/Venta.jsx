@@ -720,7 +720,7 @@ useEffect(() => {
           <Card col='4' texto='Información de la venta' >
           <div className='row'>
               <div className='mb-1'>
-                  <label for="productosSelect" class="col-form-label">Productos:</label>
+                  <label for="productosSelect" class="col-form-label">Productos 2025:</label>
                   <Select
                     value={selectedProduct2}
                     onChange={handleChange}
