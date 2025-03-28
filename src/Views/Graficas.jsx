@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Nav from '../components/Nav';
 import Card from '../components/Card';
 import { Bar, Doughnut } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement, LineController } from 'chart.js';
 import { sendRequest} from '../functions';
 import Select from 'react-select';
 import Swal from "sweetalert2";
 import Boton from '../components/Button';
 import '../index.css';
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement,  LineController);
 
 const Graficas = () => {
 
